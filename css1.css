@@ -1,0 +1,55 @@
+*{
+    padding:0%;
+    margin:0%;
+
+}
+body{
+    background-color:rgb(192, 131, 188);
+    font-family:cursive;
+    text-decoration: wavy;
+
+}
+.background-image{
+    background-image: url(./C:\Users\BhavyaSree\Desktop\bhav\stylesheets\photo.jpg);
+    width:200px;
+    height:200px;
+    background-size: contain;
+    background-repeat: no repeat;
+}
+.contact form{
+    width:500px;
+    background-color:#fff;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+
+}
+form{
+    margin:35px;
+}
+.input-field{
+    width:400px;
+    height:40px;
+    margin-top:20px;
+    padding-left:10px;
+    padding-right:10px;
+    border:1px solid #777;
+    border-radius:14px;
+    outline:none;
+}
+.textarea-field{
+    height:150px;
+    padding-top:10px;
+}
+.btn{
+
+border-radius:20px;
+color:#fff;
+margin-top:18px;
+padding:10px;
+background-color:#47c;
+font-size:12px;
+border:none;
+cursor:pointer;
+}
